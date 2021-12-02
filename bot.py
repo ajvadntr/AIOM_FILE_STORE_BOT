@@ -304,7 +304,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://github.com/ajvadntr/AIOM_PRO_FILE_STORE_BOT")
                     ],
                     [
-                        InlineKeyboardButton("👤 My Dev", url="https://t.me/ajvadntr),
+                        InlineKeyboardButton("👤 My Dev", url="https://t.me/ajvadntr"),
                         InlineKeyboardButton("🏠 Home", callback_data="gotohome")
                     ]
                 ]
