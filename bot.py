@@ -47,12 +47,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("👥 GRUPE", url="https://t.me/AIOM_BOTS_GROUP"),
+                        InlineKeyboardButton("🗣️ CHANNEL", url="https://t.me/AIOM_BOTS")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("📑 ABOUT", callback_data="aboutbot"),
+                        InlineKeyboardButton("👤 MY DEV", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -88,7 +88,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DevsZone)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/AIOM_BOTS_GROUP)",
                                      disable_web_page_preview=True)
             return
 
@@ -97,8 +97,8 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option from below:**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("⚧️ Save in Batch ⚧️", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("♀️ Get Sharable Link ♀️", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
@@ -281,12 +281,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("➰️ Source Code ➰️",
+                                             url="https://github.com/ajvadntr/AIOM_PRO_FILE_STORE_BOT")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("🗣️ Channel", url="https://t.me/AIOM_BOTS"),
+                        InlineKeyboardButton("👥 Group", url="https://t.me/AIOM_BOTS_GROUP")
                     ]
                 ]
             )
@@ -300,12 +300,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("➰️ Source Codes ➰️",
+                                             url="https://github.com/ajvadntr/AIOM_PRO_FILE_STORE_BOT")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("👤 My Dev", url="https://t.me/ajvadntr),
+                        InlineKeyboardButton("🏠 Home", callback_data="gotohome")
                     ]
                 ]
             )
@@ -373,12 +373,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("👥 GRUPE", url="https://t.me/AIOM_BOTS_GROUP"),
+                        InlineKeyboardButton("🗣️ CHANNEL", url="https://t.me/AIOM_BOTS")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("📑 ABOUT", callback_data="aboutbot"),
+                        InlineKeyboardButton("👤 MY DEV", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -406,8 +406,8 @@ async def button(bot: Client, cmd: CallbackQuery):
         await cmd.message.edit("File Saved in Batch!\n\n"
                                "Press below button to get batch link.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("⚧️ Get Batch Link ⚧️", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("❌️ Close Message ❌️", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
