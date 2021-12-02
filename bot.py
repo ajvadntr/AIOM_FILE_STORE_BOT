@@ -47,7 +47,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👥 GRUPE", url="https://t.me/AIOM_BOTS_GROUP"),
+                        InlineKeyboardButton("👥 GROUP", url="https://t.me/AIOM_BOTS_GROUP"),
                         InlineKeyboardButton("🗣️ CHANNEL", url="https://t.me/AIOM_BOTS")
                     ],
                     [
@@ -349,7 +349,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("⭕️ Join Updates Channel ⭕️", url="https://t.me/AIOM_BOTS")
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
