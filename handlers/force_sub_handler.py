@@ -34,7 +34,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⭕️ Join Updates Channel ⭕️", url="https://t.me/AIOM_BOTS)
+                        InlineKeyboardButton("⭕️ Join Updates Channel ⭕️", url="https://t.me/AIOM_BOTS")
                     ],
                     [
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
