@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @ajvadntr
 
 import os
 
@@ -22,31 +22,26 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+**My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 **Language:** [Python3](https://www.python.org)
+**Language:** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+**Library:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+**Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+**Developer:** @ajvadntr
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+**Developer:** @ajvadntr
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+Hi, I Am **Ajvad**. Founder Of @AIOM_BOTS & @AllinOneMoviesTalks
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+**Hi, [{}](tg://user?id={})\n\nThis Is A Permanent File Store Bot.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+Send Me Any File I Will Give You A Permanent Sharable Link.**
 """
