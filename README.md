@@ -40,7 +40,7 @@ This is Telegram Parmanent Files Store Bot
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/hHu2RaePhwI)
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ajvadntr/AIOM_PRO_FILE_STORE_BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ajvadntr/AIOM_FILE_STORE_BOT)
 
 ## Commands:
 ```
