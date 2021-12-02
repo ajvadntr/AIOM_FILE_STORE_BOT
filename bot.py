@@ -319,12 +319,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("👥 GROUP", url="https://t.me/AIOM_BOTS_GROUP"),
+                        InlineKeyboardButton("🗣️ CHANNEL", url="https://t.me/AIOM_BOTS")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("📑 ABOUT", callback_data="aboutbot"),
+                        InlineKeyboardButton("👤 MY DEV", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -373,7 +373,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👥 GRUPE", url="https://t.me/AIOM_BOTS_GROUP"),
+                        InlineKeyboardButton("👥 GROUP", url="https://t.me/AIOM_BOTS_GROUP"),
                         InlineKeyboardButton("🗣️ CHANNEL", url="https://t.me/AIOM_BOTS")
                     ],
                     [
